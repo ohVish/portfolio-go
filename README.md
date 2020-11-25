@@ -1,5 +1,5 @@
 # Personal Web Page
-#### Simple web page made with Bootstrap 5.1 and JQuery explaining all my work experience as a student, my personal projects and my own knowledge. The web page is managed by a lightweb API made in Go with Gin-Gonic Web Framework.
+#### Simple web page made with Bootstrap 4 and JQuery explaining all my work experience as a student, my personal projects and my own knowledge. The web page is managed by a lightweb API made in Go with Gin-Gonic Web Framework.
 
 ## Requirements
   * Golang 1.15
