@@ -24,5 +24,5 @@ func main(){
   r.GET("/",index)
   r.GET("/projects",projects)
   r.GET("/about",about)
-  r.Run("192.168.1.39:10001")
+  r.Run()
 }
