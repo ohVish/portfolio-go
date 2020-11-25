@@ -1,0 +1,27 @@
+
+.carousel-caption{
+    background: rgb(0,0, 0,0.7);
+    border-radius: 25px;
+}
+
+.carousel-caption h5{
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.carousel-caption p{
+  font-size: 2vw;
+}
+
+.carousel-img{
+  max-height:100%;
+}
+
+.h-divider{
+    margin-top:5px;
+    margin-bottom:5px;
+    height:1px;
+    width:100%;
+    border-top:1px solid gray;
+}
+

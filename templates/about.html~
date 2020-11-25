@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+				 shrink-to-fit=no">
+  <title>José Miguel Aragón - About me</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+  <!-- My styles -->
+  <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-dark grey justify-content-center">
+      <a class="navbar-brand" href="">
+        <img src="/assets/logovish.png" width="30" height="30"
+        class="d-inline-block align-top" alt="Profile Logo">
+      </a> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="MainNavbar">
+        <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects">Projects</a>
+          </li> 
+          <li class="nav-item active">
+            <a class="nav-link" href="/about">About Me</a>
+          </li> 
+        </ul>
+      </div>
+   </nav>
+  </div>
+  <div class = "container">
+    <hr class="solid">
+    <h3 style="font-weight:bold;"> About me </h3>
+    <hr class="solid">
+    <h5 style="font-weight:bold;" > Studies and work experience </h5>
+    <p>  21 years old student specialized in Computer Science. I am in my last
+    year studying Computer Engineering degree at the University of Cádiz </p>
+    <p> I have been working in <a href="https://tic145.uca.es/">SIC (Sistemas Inteligentes de la Computación)
+    Research Group</a> at the University of Cádiz as a research student for two
+    years (2018-2020). SIC's activity is based on artificial intelligence
+    projects.</p>
+    <p>During my stay, I have been working in the following technologies and algorithms:</p>
+    <ul>
+      <li>Web Scrapping to retrieve data about different football players using
+        Python 3 and BeautifulSoup 4.
+      </li>
+      <li>Sensitive Analysis using R language to study the importance of the
+      different LLVM 3.8 Code Optimizations in relation to the execution time.
+      </li>
+      <li>MonoObjective Genetic Algorithms using R language trying to find the best
+      combination of LLVM 3.8 Code Optimizations to improve the execution time.
+      </li>
+      <li>MonoObjective Genetic Algorithms using JMetalPy framework in Python 3 and
+      research about different approaches to manage noise in fitness function.</p>
+      </li>
+    </ul>
+    <p>I have been working in <a href="https://ucanfly.uca.es/">UCAnFly</a>,
+    a space project which aims to build a nanosatellite to explorea the
+    feasibility of novel magnetic measurement systems for space missions who required tiny sensors and long integration time, for two years (2018-2020).</p>
+            <p>My main tasks when I was inside the team are listed below: </p>
+            <ul>
+            <li>Software Design for the On Board Software (Flow Diagrams,
+              Use-Case Diagrams, Software Test Plan...). </li>
+            <li>Software Repository and baseline/release system designed</li>
+            <li> TMS570LS0714 MCU programming using C with Code Composer Studio
+              and HALCoGen Software.</li>
+            </ul>
+    <hr class = "solid">
+    <h5 style="font-weight:bold;"> Skills </h5>
+    <ul>
+      <li> C/C++ advanced knowledge. Experience with multimedia libraries, for
+        example, SDL. Experience with C for Embedded Systems. </li>
+      <li>Advanced knowledge about LLVM compiler infrastructure and code
+        compiling optimization tools.</li>
+      <li> Python 3 advanced knowledge. Experience with Machine Learning
+        libraries (Sklearn, Scipy...) and Desktop UID libraries (Kivy, PyQt).</li>
+      <li>Advanced knowledge of MatLab. Experience making machine learning
+        algorithms (Classifiers, regression...), voice recognition
+        techniques(DTW), image recognition techniques and optimization
+        algorithms such as PSO(Particle Swarm Optimization) and MonoObjective
+        Genetic Algorithms.</li>
+      <li>R language knowledge about sensitive analysis, genetic algorithms and
+        parallel functions.</li>
+      <li>Medium knowledge about Java and Golang. Experience using Desktop UID
+      libraries with Golang using Fyne.io</li>
+      <li>API REST developer experience using Python (Bottle framework or Flash) or
+        Go(Gin-Gonic).</li>
+      <li>Backend experience with Laravel.</li>
+      <li>Frontend experience with Bootstrap 4 and JQuery.</li>
+    </ul>
+    <hr class = "solid">
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      $('.card').mouseenter(function(){
+        $(".card").not(this).animate({opacity:0.5},10);
+      });
+      $('.card').mouseleave(function(){
+        $(".card").not(this).animate({opacity:1},10);
+      });
+      $('.carousel-caption').mouseenter(function(){
+        $(".carousel-img").animate({opacity:0.5},10);
+      });
+      $('.carousel-caption').mouseleave(function(){
+        $(".carousel-img").animate({opacity:1},10);
+      });
+    });
+  </script>
+</body>
+
+  <div class="container">
+    <hr class="solid">
+    <!-- Footer -->
+    <footer class="page-footer font-small grey">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+  </div>
+
+</html>
